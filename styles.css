@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color-Eggshell: hsl(30, 54%, 90%);
+    --color-Nutmeg:hsl(14, 45%, 36%);
+    --bg-color-Nutmeg: hsla(14, 45%, 36%, 0.226);
+    --color-Dark-Raspberry: hsl(332, 51%, 32%);
+    --bg-color-Dark-Raspberry:hsla(332, 51%, 32%, 0.041);
+    --color-White: hsl(0, 0%, 100%);
+    --color-Light-Grey: hsl(30, 18%, 87%);
+    --color-Wenge-Brown: hsl(32, 10%, 34%);
+    --color-Dark-Charcoal: hsl(24, 5%, 18%);
+    --Font-size-p: 16px;
+    --Font-family-YS:'Young Serif';
+    --Font-family-Outfit: 'Outfit';
+
+}
+
+.contenedor__main {
+    background-color: var(--bg-color-Eggshell);
+    padding: .1px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 735px;
+    margin: 123px auto;
+    padding: 40px;
+    background-color: var(--color-White);
+    border-radius: 25px;
+    gap: 26px;
+}
+
+.img {
+    display: block;
+    width: 100%;
+    border-radius: 13px;
+}
+
+.titulo__contenedor {
+    margin-top: 34px;
+}
+
+.header__titulo {
+    font-family: var(--Font-family-YS);
+    color: var(--color-Dark-Charcoal);
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+.header__parrafo {
+    font-family: var(--Font-family-Outfit);
+    line-height: 1.5;
+    margin-top: 13px;
+    color: var(--color-Wenge-Brown);
+}
+
+.preparacion {
+    background-color: var(--bg-color-Dark-Raspberry);
+    padding-left: 28px;
+    font-family: var(--Font-family-Outfit);
+    font-size: 13px;
+    border-radius: 12px;
+    padding: 25px 27px;
+    margin-top: 8px;
+}
+
+.preparacion__titulo {
+    color: var(--color-Dark-Raspberry);
+}
+
+.preparacion__ul {
+    line-height: 2;
+    padding: 10px 0 0 24px;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--color-Dark-Raspberry);
+}
+
+span {
+    color: var(--color-Wenge-Brown);
+    font-weight: 400;
+}
+
+.strong__preparacion {
+    margin-left: 15px;
+    color: var(--color-Wenge-Brown);
+}
+
+.ingredientes__titulo, .instrucciones__titulo, .nutricion__titulo {
+    font-family: var(--Font-family-YS);
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--color-Nutmeg);
+}
+
+.ingredientes__ul {
+    line-height: 2;
+    padding: 10px 0 0 24px;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--color-Nutmeg);
+    font-family: var(--Font-family-Outfit);
+}
+
+.span__ingredientes {
+    margin-left: 15px;
+}
+
+.instrucciones {
+    border-top: 1px solid rgba(202, 202, 202, 0.527);
+    padding-top: 25px;
+}
+
+.instrucciones__ol {
+    line-height: 25px;
+    margin: 15px 0 0 24px;
+    font-size: 16px;
+    color: var(--color-Nutmeg);
+    font-family: var(--Font-family-Outfit);
+}
+
+.ol__items {
+    font-family: var(--Font-family-Outfit);
+    
+
+}
+
+.items__parrafo {
+    color: var(--color-Wenge-Brown);
+    margin: 0 0 10px 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.nutricion {
+    border-top: 1px solid rgba(202, 202, 202, 0.534);
+    margin-top: 7px;
+}
+
+.nutricion__titulo {
+    margin-top: 20px;
+}
+
+
+.nutricion__parrafo {
+    color: var(--color-Wenge-Brown);
+    font-family: var(--Font-family-Outfit);
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tabla__item {
+    border-bottom: 1px solid rgb(214, 214, 214);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    font-family: var(--Font-family-Outfit);
+    font-weight: 500;
+}
+
+.tabla {
+    display: flex;
+}
+
+.items {
+    margin-left: 10px;
+    margin-right: 200px;
+    color: var(--color-Wenge-Brown);
+}
+
+.kj {
+    margin-left: 40px;
+    font-weight: bolder;
+    color: var(--color-Nutmeg);
+}
+
+.item__carbs {
+    margin-left: 56px;
+}
+
+.item__fat {
+    margin-left: 75px;
+}
+
+.fat {
+    border-style: none;
+}
+
+.item__protein {
+    margin-left: 47px;
+}
